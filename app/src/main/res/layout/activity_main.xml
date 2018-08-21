@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/m_classical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经典样式" />
+
+
+    <Button
+        android:id="@+id/m_waveswip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全屏水波" />
+
+
+    <Button
+        android:id="@+id/m_watedrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="苹果水滴" />
+
+    <Button
+        android:id="@+id/m_bezier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="美团下拉" />
+
+    <Button
+        android:id="@+id/m_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="美团下拉加载更多" />
+
+    <Button
+        android:id="@+id/m_smart_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BaseRecyclerViewAdapterHelper使用总结" />
+
+
+
+
+
+</LinearLayout>
