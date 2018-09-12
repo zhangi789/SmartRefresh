@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.refresh.smart.cn.baseUse.RecycleviewBasicActivity;
+import com.refresh.smart.cn.ui.Classical2Activity;
 import com.refresh.smart.cn.ui.ClassicalActivity;
 import com.refresh.smart.cn.ui.MeituanActivity;
 import com.refresh.smart.cn.ui.PullMoreAndRefreshActivity;
@@ -23,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.m_classical)
     Button mClassical;
+
+    @BindView(R.id.m_classical2)
+    Button mClassical2;
+
+
     @BindView(R.id.m_bezier)
     Button mBezier;
 
@@ -44,9 +50,16 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.m_classical, R.id.m_bezier, R.id.m_waveswip, R.id.m_watedrop, R.id.m_more,R.id.m_smart_adapter})
+    @OnClick({R.id.m_classical, R.id.m_classical2,R.id.m_bezier, R.id.m_waveswip, R.id.m_watedrop, R.id.m_more,R.id.m_smart_adapter})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+
+            case R.id.m_classical2:
+                startActivity(new Intent(mContext, Classical2Activity.class));
+                break;
+
+
+
             case R.id.m_classical:
                 startActivity(new Intent(mContext, ClassicalActivity.class));
                 break;

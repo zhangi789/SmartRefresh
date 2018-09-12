@@ -22,6 +22,7 @@ public class MultipleItemQuickAdapter extends BaseMultiItemQuickAdapter<Multiple
         addItemType(MultipleItem.MIDDLE, R.layout.time_middle);
         addItemType(MultipleItem.END, R.layout.time_end);
     }
+
     @Override
     protected void convert(BaseViewHolder helper, MultipleItem item) {
         switch (helper.getItemViewType()) {

@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <Button
+        android:id="@+id/m_classical2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经典样式" />
     <Button
         android:id="@+id/m_classical"
         android:layout_width="match_parent"
